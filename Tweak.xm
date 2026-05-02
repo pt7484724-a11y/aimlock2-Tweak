@@ -1,9 +1,10 @@
 #import <UIKit/UIKit.h>
 
+// Hook vào hệ thống cảm ứng cho project aimlock
 %hook UITouch
 - (CGPoint)locationInView:(UIView *)view {
     CGPoint originalLocation = %orig;
-    CGFloat sensitivityMultiplier = 1.5; // Chỉnh số này để tăng/giảm độ nhạy
+    CGFloat sensitivityMultiplier = 1.5; 
     return CGPointMake(originalLocation.x * sensitivityMultiplier, originalLocation.y * sensitivityMultiplier);
 }
 
