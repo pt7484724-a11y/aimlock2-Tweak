@@ -1,8 +1,0 @@
-INSTALL_TARGET_PROCESSES = FreeFire
-include $(THEOS)/makefiles/common.mk
-
-TWEAK_NAME = HuyPhucSensitivity
-HuyPhucSensitivity_FILES = Tweak.xm
-HuyPhucSensitivity_CFLAGS = -fobjc-arc
-
-include $(THEOS_MAKE_PATH)/tweak.mk
