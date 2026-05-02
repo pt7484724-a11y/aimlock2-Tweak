@@ -1,0 +1,9 @@
+Package: com.phuc.aimlock
+Name: aimlock
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Tweak tang do nhay Free Fire
+Maintainer: Phuc
+Author: Phuc
+Section: Tweaks
